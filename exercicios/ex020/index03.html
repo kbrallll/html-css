@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="kbrallll.ico" type="image/x-icon">
+    <title>Teste de Pseudos em links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            text-align: center;
+            background-color: #001542;
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        /* a:visited {} */
+
+        a:hover{
+            color: #FFB30D;
+        }
+
+        .twitter::before{content: ">>";}
+
+        .twitter::after{content: "<<";}
+
+        div{
+            display: inline-block;
+            background-color: #085454;
+            color: white;
+            width: 200px;
+            height: 250px;    
+        }
+        
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: #FFB30D
+        }
+
+        div:hover{
+            background-color: #FFB30D;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conhecendo mais o Sr kbrallll</h1>
+    
+    <p><a href="https://www.instagram.com/kbralllll/" target="_blank" rel="external">Aqui vc irá para o perfil dele no Instagram</a></p>
+
+    <p><a href="https://www.facebook.com/marcelo.cabral.1884787/" target="_blank" rel="external">Aqui vc irá para o perfil dele no Facebook</a></p>
+
+    <p><a class="twitter" href="https://twitter.com/Kbrallll" target="_blank" rel="external">Aqui vc irá para o perfil dele no Twitter</a></p>
+    
+    <div>01<p><a href="https://adorocinematorrent.com/" target="_blank" rel="external">Surpresa clique aqui!!!</a></p></div>
+    <div>02</div>
+    <div>03</div>
+</body>
+</html>

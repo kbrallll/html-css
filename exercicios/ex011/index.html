@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="kbrallll.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+
+       
+    
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente o tamanho do seu navegador
+        </p>    
+
+        <picture>
+            <!-- É importante que existe uma ordem entre os <source>, e nessa nossa configuração,
+            os itens mais acima sejam os menores tamanhos para max-width e que os seguintes
+            sejam maiores, de forma crescente. O último item dentro de <picture> deve ser a
+            imagem padrão.-->
+            
+            <!--  F12 no teclado Depois pra ver como celular é só apertar Crtl + shift + M -->
+
+            <!-- A TAG VEM COM OS VALORES MINIMO DO ATRIBUTO MEDIA, TROCAR PARA MAX !!!-->
+
+            <!-- A TAG PICTURE É UMA TAG NOVA QUE VAI MOSTRAR VÁRIOS TIPOS DE IMAGENS !!!-->
+
+            <!-- Uma dica, em vez de usar ctrl + c, ctrl + v para mover as linhas de código. Seleciona o código que quer mover e segura Alt, e com as setas para cima e para baixo, você vai colocando o código para onde você quer-->
+
+            <source media="(max-width: 700px )" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1000px )" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Imagem Flexível">
+        </picture>
+
+        <h1>Reproduzindo aúdio</h1>
+        <p>
+            Vamos reproduzir o aúdio pela prieira vez no nosso site!!!
+        </p>
+
+        <!-- LEMBRE-SE QUANDO VC COLOCA OS SOURCE TANTO NO AUDIO COMO NO VIDEO ELE VAI TENTAR CARREGAR DE    CIMA PARA BAIXO !!!
+
+        <audio src="midia/musica001.mp3" controls autoplay></audio> -->
+
+        <audio preload="metadata" controls autoplay loop>
+            <source src="midia/musica001.mp3" type="audio/mpeg">
+            
+            <!-- source src="midia/musica001.ogg" type="audio/ogg"-->
+            
+            <!-- source src="midia/musica001.wav" type="audio/wav"-->
+            
+            <!-- <p> se o seu navegador não suporta o aúdio selecionado <a href="midia/musica001.mp3" download="musica001.mp3" type="audio/mpeg" </a> 
+                 </p>  -->
+        </audio>
+
+<!--    Vamos analisar os principais atributos da tag <audio> antes de mais nada:
+         ‣O atributo preload indica se o áudio será pré-carregado ou não e aceita três valores:
+                
+        ๏ metadata vai carregar apenas as informações sobre o arquivo (tamanho,tempo, informações de direitos, etc)
+                
+        ๏ none não vai carregar absolutamente nada até que o usuário clique no botão play ou um script inicie a reprodução
+                
+        ๏ auto (padrão) vai carregar o arquivo de áudio inteiro assim que a página for carregada, mesmo que o usuário nunca aperte o play
+                
+        ‣ O atributo controls vai apresentar o player na tela. Caso não seja colocado na tag <audio>, o controle será transparente e o usuário não poderá interagir com ele.
+
+        ‣ O atributo autoplay, quando inserido, vai iniciar a reprodução do áudio assim que a página for carregada.
+
+        ‣ O atributo loop vai fazer com que o áudio seja repetido eternamente assim que terminar a sua reprodução.
+
+        Dentro da tag <audio>, adicionamos vários <source> com formatos diferentes do mesmo áudio. Coloque na parte de cima o seu formato favorito. Os demais só serão carregados caso o de cima falhe. Caso todos falhem, criamos um parágrafo que permite o download do arquivo MP3 para ouvir no player padrão do dispositivo.-->
+        
+        <h1>Vamos reproduzir um vídeo</h1>
+        <p>Vamos reproduzir um video pela primeira vez em nosso site!!!</p>
+
+        <video width="600px" controls>
+                <source src="midia/video001.mp4" type="video/mp4">
+        </video>
+<!-- 
+    Antes de mais nada, vamos criar a tag <video> e configurar alguns atributos importantes:
+
+‣ width vai indicar a largura que o vídeo vai ter na tela. Nesse exemplo, 600px.
+
+‣ poster configura uma imagem que vai aparecer como uma capa, enquanto o
+visitante não aperta o play para reproduzir o vídeo
+
+‣ controls vai configurar se os controles do vídeo vão aparecer na parte inferior da
+mídia. Por padrão, os controles não aparecerão, mas basta colocar a palavra
+controls na tag <video>.
+
+    SOURCE SRC="VIDEO.M4V" TYPE="VIDEO.MP4"!!!!!!!!!!
+    
+    SOURCE SRC="VIDEO.OGV" TYPE="VIDEO.OGG"!!!!!!!!!!
+
+    ‣ autoplay diz para o navegador se o vídeo vai começar a tocar automaticamente,
+assim que a página for carregada.
+MICROSOFT EDGE SUPORTA .MP4 .M4V
+APPLE SAFARI SUPORTA .MP4 .M4V
+GOOGLE CHROME SUPORTA .MP4 .M4V .WEBM .OGV
+MOZILA FIREFOX SUPORTA .WEBM .OGV
+OPERA SUPORTA .WEBM .OGV 
+
+Hospedar seus próprios vídeos pode ser caro
+Quando colocamos vídeos no nosso próprio servidor, podemos passar por problemas
+com alto consumo de banda, site lento e incompatibilidades com alguns navegadores
+por conta dos codecs. E geralmente só percebemos esses problemas quando
+colocamos nosso projeto no ar e lançamos oficialmente.
+Vamos fazer uma conta simples: um vídeo simples, com poucos
+minutos, em formato mp4 com codec padrão deve ocupar uns
+150MB com facilidade. Agora imagine que você lance seu site e
+200 visitantes (um número super possível) acessem seu site e
+reproduzam o vídeo. Pronto, você acabou de utilizar 29GB de
+tráfego! Imagine o quanto isso pode deixar seu site lento ou
+consumir sua franquia de hospedagem, caso não seja ilimitada.
+E é claro que seu site possivelmente não vai ter apenas um vídeo, não vai ter apenas
+200 visitantes em um dia e aí a conta só aumenta. É preciso tomar muito cuidado
+quando decidimos guardar nossos próprios vídeos.
+
+
+-->
+</body>
+</html>
