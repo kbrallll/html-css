@@ -53,12 +53,12 @@ Aprendi Criar Sites e agora estou gerenciando meus repositórios!!!
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex020/index.html">Executar o Ex020a - Pseudo Classe</a>
 
-<a href="https://kbrallll.github.io/html-css/exercicios/ex020/index2.html">Executar o Ex020b - Pseudo Classe</a>
+<a href="https://kbrallll.github.io/html-css/exercicios/ex020/index02.html">Executar o Ex020b - Pseudo Classe</a>
 
-<a href="https://kbrallll.github.io/html-css/exercicios/ex020/index3.html">Executar o Ex020c - Pseudo Classe</a>
+<a href="https://kbrallll.github.io/html-css/exercicios/ex020/index03.html">Executar o Ex020c - Pseudo Classe</a>
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex021/index.html">Executar o Ex021a</a>
 
-<a href="https://kbrallll.github.io/html-css/exercicios/ex021/index2.html">Executar o Ex021b</a>
+<a href="https://kbrallll.github.io/html-css/exercicios/ex021/index02.html">Executar o Ex021b</a>
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo01.html">Executar o Ex022</a>
