@@ -20,3 +20,7 @@ Aprendi Criar Sites e agora estou gerenciando meus repositórios!!!
 <a href="https://kbrallll.github.io/html-css/exercicios/ex008/index.html">Executar o Ex008</a>
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex008b/index.html">Executar o Ex008b</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex009/index.html">Executar o Ex009</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex010/index.html">Executar o Ex010</a>
