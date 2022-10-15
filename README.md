@@ -73,4 +73,6 @@ Aprendi Criar Sites e agora estou gerenciando meus repositórios!!!
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo06b.html">Executar o Ex022 - Background size contain</a>
 
+<a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo06c.html">Executar o Ex022 - Background-attachment</a>
+
 
