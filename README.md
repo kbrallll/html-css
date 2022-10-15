@@ -59,4 +59,14 @@ Aprendi Criar Sites e agora estou gerenciando meus repositórios!!!
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex021/index02.html">Executar o Ex021b</a>
 
-<a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo01.html">Executar o Ex022</a>
+<a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo01.html">Executar o Ex022 - Colocando uma imagem</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo02.html">Executar o Ex022 - Personalização de fundo (background-repeat)</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo03.html">Executar o Ex022 - Background Position</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo04.html">Executar o Ex022 - Background position figura</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo05.html">Executar o Ex022 - Background position imagem avião</a>
+
+
