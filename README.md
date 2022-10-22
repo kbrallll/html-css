@@ -75,4 +75,6 @@ Aprendi Criar Sites e agora estou gerenciando meus repositórios!!!
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo06c.html">Executar o Ex022 - Background-attachment</a>
 
+<a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo07.html">Executar o Ex022 - Alinhamento Vertical</a>
+
 

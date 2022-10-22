@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+       #container{
+        /* TODO POSICIONAMENTO DE UM BOX EM HTML POR PADRÃO É RELATIVO!!!*/
+        background-image: url(imagens/target001.png);
+        background-size: 100% 100%;
+        /*BACKGROUND-SIZE 100% ESTÁ APLICANDO PARA DEIXAR A IMAGEM 100% NO FUNDO DO SITE*/
+        position: relative;
+        height: 96vh;
+        background-color: purple;
+        padding: 10px;
+       }
+       
+       #conteudo{
+        height: 200px;
+        width: 400px;
+        background-color: yellow;
+           
+        background-image: url(imagens/target001.png);
+        background-size: 100% 100%;   
+        
+        position: absolute;
+        /* QUANDO VC TRABALHA COM POSITION ABSOLUTE VC CONSEGUE MEXER EM DUAS PROPRIEDADE!!!*/
+        left: 50%;
+        top: 50%;
+        
+        /*PROPRIEDADE NOVA TRANSFORM: TRANSLATE (NO PRIMEIRO VALOR (- NEGATIVO VAI PARA A ESQUERDA, POSITIVO VAI PARA A DIREITA) NO SEGUNDO VALOR (- NEGATIVO VAI PARA CIMA, POSITIVO VAI PARA BAIXO)) COLOCAMOS -50% E -50% TRAZENDO O ALVO DO BOX CONTEUDO PARA CENTRALIZAR COM O ALVO DO BOX CONTAINER*/
+        transform: translate(-50%, -50%);
+
+        /* MARGIN SÓ SERVE PARA O ALINHAMENTO HORIZONTAL margin: auto;*/
+
+       }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
