@@ -5,8 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            /*TAG NOVA ONDE A BORDA DA TABELA SE COLIDE COM A OUTRA, TRANSFORMANDO ASSIM UMA TABELA PARECIDA COM A DO EXCEL*/
+            border: 5px solid red;
+        }
+
+        tr#primeira{
+            background-color: aqua;
+        }
+
+        tr#segunda{
+            background-color: aquamarine;
+        }
+
+        tr#terceira{
+            background-color: bisque;
+        }
+
+        tr#quarta{
+            background-color: blanchedalmond;
+        }
+
+        td{
+            border: 1px dotted black;
+            padding: 10px;
+        }
+
+        td#amarelo{
+            background-color: yellow;
+        }
+
+
+    </style>
 </head>
 <body>
     <h1>Criando minha primeira tabela no HTML</h1>
+    <!-- 
+    Hierarquia de TABELAS
+        TABLE = TABELA
+            TABLE ROW = LINHA DE TABELA
+                TABLE HEADER = CABEÇALHO DE TABELA
+                TABLE DATA = DADOS DE TABELA
+        -->
+    <table>
+        <tr id="primeira"><!-- Primeira Linha-->
+            <td>A1</td>
+            <td id="amarelo">B1</td>
+            <td>C1</td>
+        </tr>
+        <tr id="segunda"><!-- Segunda Linha-->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr id="terceira"><!-- Terceira Linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr id="quarta"><!-- Quarta Linha-->
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
 </body>
 </html>

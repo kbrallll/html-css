@@ -79,4 +79,6 @@ Aprendi Criar Sites e agora estou gerenciando meus repositórios!!!
 
 <a href="https://kbrallll.github.io/html-css/desafios/d012/index.html">Executar o desafio 012 - EFEITO PARALLAX</a>
 
+<a href="https://kbrallll.github.io/html-css/exercicios/ex023/tabela001.html">Executar o Ex023 - Criação de Tabelas em HTML</a>
+
 
