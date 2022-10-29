@@ -77,4 +77,6 @@ Aprendi Criar Sites e agora estou gerenciando meus repositórios!!!
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex022/fundo07.html">Executar o Ex022 - Alinhamento Vertical</a>
 
+<a href="https://kbrallll.github.io/html-css/desafios/d012/index.html">Executar o desafio 012 - EFEITO PARALLAX</a>
+
 
