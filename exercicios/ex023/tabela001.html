@@ -12,36 +12,18 @@
         
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
             /*TAG NOVA ONDE A BORDA DA TABELA SE COLIDE COM A OUTRA, TRANSFORMANDO ASSIM UMA TABELA PARECIDA COM A DO EXCEL*/
-            border: 5px solid red;
-        }
-
-        tr#primeira{
-            background-color: aqua;
-        }
-
-        tr#segunda{
-            background-color: aquamarine;
-        }
-
-        tr#terceira{
-            background-color: bisque;
-        }
-
-        tr#quarta{
-            background-color: blanchedalmond;
+            border: 3px solid black;
         }
 
         td{
-            border: 1px dotted black;
+            border: 1px solid black;
             padding: 10px;
+            text-align: center; /*ALINHAMENTO HORIZONTAL*/
+            vertical-align: middle; /*ALINHAMENTO VERTICAL COM TOP, MIDDLE E BOTTOM*/
         }
-
-        td#amarelo{
-            background-color: yellow;
-        }
-
 
     </style>
 </head>
@@ -57,7 +39,7 @@
     <table>
         <tr id="primeira"><!-- Primeira Linha-->
             <td>A1</td>
-            <td id="amarelo">B1</td>
+            <td>B1</td>
             <td>C1</td>
         </tr>
         <tr id="segunda"><!-- Segunda Linha-->
