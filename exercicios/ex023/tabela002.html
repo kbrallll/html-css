@@ -10,11 +10,11 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        
 
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -37,10 +37,30 @@
             background-color: grey;
             color: white;
         }
+        /*FIXANDO O CABEÇALHO NA PAGINA PRIMEIRO VAMOS NA TAG TABLE E COLOCAMOS POSITION RELATIVE
+
+        DEPOIS ABRIMOS ESSE CAMINHO DE THEAD > TR > TH
+        E COLOCAMOS O POSITION STICKY E O TOP -1PX, O BACKGROUND PEGA O MESMO DO CABEÇALHO*/
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: grey   
+        }
+        
+        /*EFEITO ZEBRADO PARA TABELA PSEUDO CLASSE :nth-child()
+
+        ODD=IMPAR
+        EVEN=PAR
+
+        DA PRA USAR NUMERAL IDENTIFICANDO A LINHA TBM*/
+        tbody > tr:nth-child(odd) {
+            background-color: blueviolet;
+        }
 
         td.num{
             text-align: right;
         }
+
         </style>
 </head>
 <body>
@@ -176,6 +196,20 @@
         </tr>
     </tfoot>
 </table>
+<p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati laboriosam vero quibusdam aperiam, facilis illo sequi adipisci, dolorum deserunt fuga dignissimos possimus amet maxime consectetur expedita alias cumque, saepe quasi!
+</p>
+<p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati laboriosam vero quibusdam aperiam, facilis illo sequi adipisci, dolorum deserunt fuga dignissimos possimus amet maxime consectetur expedita alias cumque, saepe quasi!
+</p>
+<p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati laboriosam vero quibusdam aperiam, facilis illo sequi adipisci, dolorum deserunt fuga dignissimos possimus amet maxime consectetur expedita alias cumque, saepe quasi!
+</p>
+<p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati laboriosam vero quibusdam aperiam, facilis illo sequi adipisci, dolorum deserunt fuga dignissimos possimus amet maxime consectetur expedita alias cumque, saepe quasi!
+</p><p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati laboriosam vero quibusdam aperiam, facilis illo sequi adipisci, dolorum deserunt fuga dignissimos possimus amet maxime consectetur expedita alias cumque, saepe quasi!
+</p>
 
     
 </body>
