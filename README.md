@@ -84,3 +84,5 @@ Aprendi Criar Sites e agora estou gerenciando meus repositórios!!!
 <a href="https://kbrallll.github.io/html-css/exercicios/ex023/tabela002.html">Executar o Ex023b - Criação de Tabelas em HTML Efeito Zebrado</a>
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex023/tabela003.html">Executar o Ex023c - Criação de Tabelas em HTML Cabeçalho fixo</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex023/tabela004.html">Executar o Ex023d - Criação de Tabela</a>
