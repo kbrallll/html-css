@@ -88,3 +88,5 @@ Aprendi Criar Sites e agora estou gerenciando meus repositórios!!!
 <a href="https://kbrallll.github.io/html-css/exercicios/ex023/tabela004.html">Executar o Ex023d - Criação de Tabela (Filmes)</a>
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex023/tabela005.html">Executar o Ex023e - Criação de Tabela (Boletim com CoulGroup)</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex023/tabela006.html">Executar o Ex023F - Criação de Tabela Responsiva</a>
