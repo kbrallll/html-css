@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 002</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 2em;
+            font-weight: bold;
+            
+        }
+    </style>
+</head>
+<body>
+   <h1>Teste de Formulário</h1> 
+   <form action="cadastro.php" method="POST" autocomplete="on">
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usuario" id="iusu" required minlength="5" maxlength="15" size="15" placeholder="Nome do Usuário" autocomplete="username">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required minlength="8" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        <p>
+            Aqui nesse EX estamos praticando o formulário com input type="password" e o input type="reset" para limpar o formulário<br/>
+            O atributo REQUIRED É PARA NÃO DEIXAR ENVIAR O FORMULÁRIO EM BRANCO...<br/>
+            O atributo SIZE É PARA DEFINIR OS VALORES QUE IRÁ APARECER...<br/>
+            O atributo PLACEHOLDER É UMA DICA DA CAIXA DO FORMULÁRIO...
+
+        </p>
+   </form>
+</body>
+</html>
