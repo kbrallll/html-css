@@ -8,6 +8,8 @@
     <style>
         *{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 2em;
+            font-weight: bold;
             
         }
     </style>
@@ -16,9 +18,14 @@
     <h1>Meu primeiro formulário</h1>
     <p>
         Aqui nesse exemplo de formulário estamos criando um formulário com action=cadastro.php que é para onde as informações serão armazenadas e o autocomplete=off que é para quando vc digitar o texto na caixa do formulário não se auto completar!!!<br/>
-        Com inputtype=text e inputtype=submit para enviar o formulário!!!
+        Com inputtype=text e inputtype=submit para enviar o formulário!!!<br/>
+        A label é para etiquetar a caixa de formulário 
+        para javascript e label o melhor a se usar é ID, para PHP e Pyton o melhor é o name<br/>
+        O atributo method="POST" na tag Label é para esconder as informações da URL<br/>
+        O atributo method="GET" é o metodo padrão e os dados aparecem na URL e tbm quando vc quiser compartilhar a URL é a melhor maneira...
+
     </p>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="POST" autocomplete="off">
         <p><label for="inome">Nome:</label>
             <input type="text" name="nome" id="inome">
         <p>
