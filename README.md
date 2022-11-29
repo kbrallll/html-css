@@ -96,3 +96,9 @@ Aprendi Criar Sites e agora estou gerenciando meus repositórios!!!
 <a href="https://kbrallll.github.io/html-css/exercicios/ex024/iframe002.html">Executar o Ex024b - Criando Iframe local</a>
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex024/iframe003.html">Executar o Ex024c - Criando Iframe em forma de lista</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex025/form001.html">Executar o Ex025a - Criando Formulário</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex025/form002.html">Executar o Ex025b - Criando Formulário</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex025/form003.html">Executar o Ex025c - Criando Formulário</a>
