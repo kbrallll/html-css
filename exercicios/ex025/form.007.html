@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1em;
+            font-weight: bold;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <p>
+        ***Configuração importantes para formulário, nesse caso utilizamos o select para estado e colocamos os estados em option***
+    </p>
+
+    <p>
+        ***Na profissão criamos um datalist, acrescentamos os options com as profissões e colocamos um ID para a lista e no input***
+    </p>
+
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value="" selected>--- ESCOLHA ---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="ipro">Profissão</label>
+            <input type="text" name="prof" id="ipro" list="listprof">
+            <datalist id="listprof">
+                <option value="ADM">Administrador</option>
+                <option value="PRO">Professor</option>
+                <option value="CON">Contador</option>
+                <option value="PRO">Programador Full Stack</option>
+                <option value="BAS">Jogador de Basquete</option>
+            </datalist>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+        
+</body>
+</html>
