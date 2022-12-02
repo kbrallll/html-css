@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1em;
+            font-weight: bold;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário Type radio e checkbox</h1>
+    <p>
+        Para Formulário type radio o name tem que ter a mesma especificação para a escolher somente uma opção!!! 
+    </p>
+    <p>
+        Para Formulário type checkbox não existe a opção de como escolher somente um!!!
+    </p>
+    <form action="cadastro.php" method="GET">
+        <fieldset>
+            <legend>Escolha seu sexo</legend>
+            <input type="radio" name="sexo" id="ifem" checked><label for="ifem" value="F">Feminino</label>
+            <input type="radio" name="sexo" id="imas"><label for="imas" value="M">Masculino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Escolha seu esporte favorito</legend>
+            <input type="checkbox" name="futebol" id="ifut" checked><label for="ifut">Futebol</label><br>
+            <input type="checkbox" name="basquete" id="ibas"><label for="ibas">Basquete</label><br>
+            <input type="checkbox" name="volei" id="ivol"><label for="ivol">Vôlei</label><br>
+            <input type="checkbox" name="tenis" id="iten"><label for="iten">Tênis</label><br>
+            <input type="checkbox" name="formula" id="ifor"><label for="ifor">Fórmula 1</label><br>
+        </fieldset>
+            <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
