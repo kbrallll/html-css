@@ -24,7 +24,7 @@
         ***Na profissão criamos um datalist, acrescentamos os options com as profissões e colocamos um ID para a lista e no input***
     </p>
 
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
         <p>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
@@ -39,7 +39,6 @@
                     <option value="MA">Maranhão</option>
                     <option value="PE">Pernambuco</option>
                     <option value="RN">Rio Grande do Norte</option>
-
                 </optgroup>
             </select>
         </p>
@@ -56,6 +55,11 @@
             </datalist>
         </p>
 
+        <p>
+
+        </p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="digite o seu texto aqui"></textarea>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
