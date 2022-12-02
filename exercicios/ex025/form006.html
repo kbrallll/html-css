@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1em;
+            font-weight: bold;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <p>
+        *** Configurações importantes para formulários com envio de arquivos é obrigatório o method="post" ***
+    </p>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <input type="color" name="cor" id="icor" value="#00ff00"><label for="icor" >Cor:</label>
+        </p>
+
+        <p>
+            <input type="range" name="nivel" id="iniv" min="1" max="5" value="3"><label for="iniv">Nível de Satisfação</label>
+        </p>
+
+        <p>
+            <input type="file" name="foto" id="ifot"><label for="ifot">Foto do Perfil</label>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
