@@ -116,3 +116,9 @@ Aprendi Criar Sites e agora estou gerenciando meus repositórios!!!
 <a href="https://kbrallll.github.io/html-css/exercicios/ex025/form006.html">Executar o Ex025f - Criando Formulário</a>
 
 <a href="https://kbrallll.github.io/html-css/exercicios/ex025/form007.html">Executar o Ex025g - Criando Formulário</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex025/form008.html">Executar o Ex025h - Criando Formulário</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex025/form009.html">Executar o Ex025i - Criando Formulário</a>
+
+<a href="https://kbrallll.github.io/html-css/exercicios/ex025/form010.html">Executar o Ex025j - Criando Formulário</a>
