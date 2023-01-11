@@ -68,6 +68,10 @@ Grandes Telas: acima de 1200px;
         background-image: url(../imagens/back-tablet.jpg);
     }
 
+    main {
+        width: 600px;
+    }
+
     img#phone { display: none;}
 
     img#tablet { display: block;}
@@ -85,6 +89,10 @@ Grandes Telas: acima de 1200px;
     body {
         background-image: url(../imagens/back-pc.jpg);
         background-position: center center;
+    }
+
+    main {
+        width: 600px;
     }
 
     img#phone { display: none;}
